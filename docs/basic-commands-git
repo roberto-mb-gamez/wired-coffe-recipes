@@ -1,0 +1,27 @@
+--Verificar la versión de git instalada
+git --version
+
+--Configurar usuario y correo de git para seguimiento de cambios 
+git config --global user.name "Roberto Gamez"
+git config --global user.email "roberto.mb.gamez@hotmail.com"
+
+Nota: Si queremos configurar un usuario y correo en un directorio especifico y no a nivel global, podemos 
+ejecutar el comando anterior sin usar la opocion: --global
+
+--Ver el listado de configuraciones en nuestro equipo de trabajo 
+git config --list
+
+--Podemos ver una configuración especifica usando el nombre de esa configuración
+git config user.email
+
+--Inicializar un nuevo repositorio
+git init 
+
+--Add all files to staging
+git add .
+
+--Create commit in our repository 
+git commit -m "first commit"
+
+--Add repository server to local repository
+git remote add origin https://github.com/roberto-mb-gamez/wired-coffe-recipes.git
