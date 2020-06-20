@@ -25,3 +25,6 @@ git commit -m "first commit"
 
 --Add repository server to local repository
 git remote add origin https://github.com/roberto-mb-gamez/wired-coffe-recipes.git
+
+--Up changes in repo local to server
+git push -u origin master
