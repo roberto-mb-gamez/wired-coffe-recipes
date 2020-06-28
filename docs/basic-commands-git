@@ -28,3 +28,12 @@ git remote add origin https://github.com/roberto-mb-gamez/wired-coffe-recipes.gi
 
 --Up changes in repo local to server
 git push -u origin master
+
+--Show differences between changes
+git diff / git diff --staged
+
+--Ver los cambios actuales de nuestro repositorio
+git status --short / git status -s
+
+--Crear snapshot de nuestro repositorio 
+git commit -a -m "Mensaje informativo"
